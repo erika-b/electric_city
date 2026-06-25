@@ -1,7 +1,17 @@
 ---
-title: Causes Contributing to Growth.
+title: TACOMA ELECTRIC CITY OF THE PACIFIC COAST
 order: 1
 ---
+## TACOMA—1904
+
+By Louis W. Pratt.
+
+Tacoma, the Electric City of the Pacific Coast, and the chief seaport of the North Pacific, is situated at the head of ocean navigation on Puget Sound in latitude 47° 15´ north and longitude 122° 25´ west from Greenwich. Being further north than Duluth or Quebec, Tacoma is supposed by many to be bleak and cold. A popular misapprehension among Eastern people seems to be that Puget Sound is somewhere near Alaska and that for half of the year the people contend with snow and ice.
+## Climate and Health.
+
+The climate of the Pacific Slope west of the Cascade Mountains is tempered by the Pacific Ocean, the “Japan current” and the equable southwesterly winds. The climate resembles that of Western Europe rather than that of the American Continent east of the Rocky Mountains. Tacoma is four degrees further south than London, in about the same latitude as Nantes, the chief city of Brittany, near the mouth of the Loire. The climate of Puget Sound is warmer in winter and cooler in summer than that of Southern England, and is the most equable, salubrious and delightful to be found in the United States.
+
+
 * Federal enumeration, 42,311.
 
 - 1—Tacoma Hotel and Totem Pole.
