@@ -1,76 +1,17 @@
 ---
-title: Welcome to CB-Essay
+title: This is my practice essay
 order: 1
-part: Overview and Examples
+part: Practice
 ---
+I'm practicing with an about section.
 
-CB-Essay is a free, open source publishing framework that lets you ***write with, on, and for*** the web while keeping complete control over how your work appears online and in print.
+## Is this a heading our what??
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales condimentum ante, non dignissim arcu suscipit pharetra. Nam bibendum ultrices lacus, sit amet venenatis lectus. Fusce sit amet molestie neque. Aliquam iaculis dolor finibus massa faucibus vehicula. Praesent porta iaculis dapibus. Etiam et dui in quam sagittis vestibulum a eu quam. Nulla luctus at ligula vel pretium. Integer mattis eget velit ut varius.
 
-The idea for the tool, and many of its design elements, came out of our working with graduate students on digital theses the past couple of years. We've encouraged users of CollectionBuilder to write *with* their collections since we first started promoting the framework in 2019, but these [(CDIL) Grad Fellows](https://cdil.lib.uidaho.edu/) needed us to flip our setup around — featuring their essays on top, with CollectionBuilder living underneath.{% include essay/feature/aside.html text="See [Sedimentation](https://cdil.lib.uidaho.edu/sedimentation/), [Tender Spaces](https://cdil.lib.uidaho.edu/tender-spaces/), and [Fire Lines](https://cdil.lib.uidaho.edu/fire-lines/)." %} 
+Suspendisse potenti. Maecenas rhoncus, quam ut vestibulum vehicula, massa metus maximus nulla, eget cursus augue dolor pretium erat. Cras euismod leo a ligula dignissim, sed sodales metus molestie. Phasellus tincidunt magna vel massa facilisis, aliquam tristique justo vulputate. Nam at justo ac urna dapibus tempor. Donec luctus sem ultrices ipsum posuere viverra pharetra id arcu. Donec lectus augue, elementum in fermentum a, ullamcorper non turpis. Nulla fringilla porttitor eros in posuere. Vestibulum faucibus maximus lectus, vitae elementum nisi elementum non. Sed magna enim, varius vitae ultrices sit amet, luctus et augue.
 
-We liked the results and decided to try to make them more available through this new template. The mini-essays below will walk you through the system and get you started.
+Cras tempor a nisl non iaculis. Aenean efficitur sagittis elit eu imperdiet. Cras justo risus, finibus in tellus tempus, sagittis accumsan ex. Ut vitae ipsum mollis, viverra ligula laoreet, posuere ligula. Donec accumsan et magna accumsan ullamcorper. Duis malesuada volutpat metus, sit amet fermentum orci sodales at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam volutpat nisi non orci scelerisque, vel congue eros ultricies.
 
-## So What Does It Do?
+Morbi sed urna semper, volutpat mi bibendum, eleifend sapien. Suspendisse non vestibulum nulla, sollicitudin facilisis tortor. Nulla vitae orci eget ipsum euismod sagittis. Nulla pellentesque fermentum neque, at commodo odio efficitur non. Maecenas pretium, massa eget aliquet hendrerit, enim mi mattis turpis, a volutpat arcu tortor eget augue. Integer elementum neque eget egestas dignissim. Nullam dapibus, neque et blandit blandit, mi enim bibendum velit, in interdum lectus purus nec urna. Proin quis dui mi. Donec cursus, neque sed luctus volutpat, enim eros vestibulum dolor, a consectetur odio arcu ut ipsum. Curabitur ut neque nec eros interdum accumsan quis ut metus. Ut tincidunt ac neque non blandit. Etiam dapibus accumsan dui, a porta sem sagittis ut. Sed gravida finibus tortor eu accumsan. Suspendisse mattis dictum mauris in volutpat. Nullam dignissim diam eget purus ullamcorper, vestibulum egestas orci rhoncus. Duis sagittis tellus diam, eu rutrum libero facilisis ac.
 
-***CB-Essay*** is a Jekyll-based framework that combines **long-form essay writing** with **digital collection features**. ***Built on*** [CollectionBuilder](https://collectionbuilder.github.io/), it enables you to create multimodal scholarly narratives, written in Markdown, that integrate primary sources, archival materials, and multimedia items directly into your texts.
-
-Traditional digital publishing tools treat essays and collections as separate entities. CB-Essay connects them, allowing you to:
-
-- **Reference collection items** using simple includes
-- Create **asides and margin notes** that link to primary sources {% include /essay/feature/aside.html text="Like this!" %}
-- **Publish your work for free** on GitHub
-- Generate **well-designed print and pdf outputs** using PagedJS.
-- **Choose from 8 accessible color/font themes** or create your own custom theme
-- Fashion the readers' experience through **scroll-based interactions and coordinated typography** {% include /essay/feature/aside.html text="Keep scrolling to see the next section magically appear!" %}
-
-{% include essay/new-section.html %}
-
-## How Does It Work?
-
-CB-Essay operates on a **dual-collection model**:
-
-1. **Essay Collection** - Your narrative content lives in the `_essay/` folder as Markdown files
-2. **Object Collection** - Primary sources and items defined in a CSV metadata file
-
-The dual collection model lets you write ***with*** your collection of sources, allowing you to integrate references, images, documents, recordings, and videos seamlessly into your writing and into the web. 
-
-Just follow the plan, as detailed in the below image.{% include essay/feature/aside.html text="Below image credits: The Miriam and Ira D. Wallach Division of Art, Prints and Photographs: Photography Collection, The New York Public Library. 'Group farm plan writing meeting. Weld County, Colorado' The New York Public Library Digital Collections. [https://digitalcollections.nypl.org/items/1b0a3fc0-1d42-0139-bac7-0242ac110003](https://digitalcollections.nypl.org/items/1b0a3fc0-1d42-0139-bac7-0242ac110003)" %}
-
-{% include essay/feature/image-gallery.html objectid="/assets/img/writing-plan.jpg" caption="The tool is no more complicated than following this gentleman's instructions!" 
-title="Group farm plan writing meeting. Weld County, Colorado" source="The New York Public Library Digital Collections" sourcelink="https://digitalcollections.nypl.org/items/1b0a3fc0-1d42-0139-bac7-0242ac110003"
-alt="Group working on a farm plan writing project with man pointing at a complex plan written on a large sheet of paper at the front"%}
-
-
-## Who Should Use CB-Essay?
-
-If you're reading this, it's probably you! (Just make a copy of this repostory and drop your own content inside.) But yeah, it's meant for: 
-
-- **Digital humanists** creating annotated editions or critical apparatus
-- **Historians** presenting narrative alongside primary sources
-- **Educators** building interactive course readers
-- **Archivists** creating context around collections
-- **Writers** publishing long-form digital scholarship
-- **Students** looking to improve their knowledge of web and print design{% include essay/feature/aside.html caption="Even mounted forest rangers should use this tool!" objectid="demo_031"%}
-
-
-### Bonus: Project Gutenberg Extractor
-
-Want to publish a public domain book? Use our [**GitHub Action**](https://www.lib.uidaho.edu/collectionbuilder/cb-essay/frankenstein.mp4) to extract any of **60,000+ books** from Project Gutenberg directly into your `_essay/` folder - pre-formatted for the site. 
-
-See our [docs]({{ 'docs.html#gutenberg' | relative_url }}) for step by step instructions!
-
-
-## Next Steps
-
-Check out some examples sites, then get started. The remaining essays show off CB-Essay in the wild, and then walk you through setting up your first site and understanding the features.
-
-- **[See Examples](02-examples.html)** - See CB-Essay as used for DH projects and in demonstration 
-- **[Get Started](03-get-started.html)** - Set up your first essay in 10 minutes
-- **[Essay Features](04-essay-features.html)** - Learn and copy all available features
-- **[Collection Integration](05-collection-integration.html)** - Blend essays with collection items
-
-Or jump straight to the [documentation]({{ '/docs.html' | relative_url }}) for reference guides.
-
----
-
-
+Ut sagittis mattis tellus, sed aliquam dui commodo vitae. Nulla sit amet mi id sapien porttitor consectetur eget a ex. Fusce pulvinar nisi ut fringilla ullamcorper. Ut eu mauris libero. Suspendisse potenti. Sed tortor orci, tempus a augue efficitur, egestas tempus nibh. Vivamus rutrum purus ut viverra hendrerit. 
